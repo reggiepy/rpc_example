@@ -3,4 +3,5 @@ script: true
 before_install: sudo pip install -r require.txt
 script:
  - python xmlrpc_simple/server.py &
+ - sleep 1
  - python xmlrpc_simple/client.py
