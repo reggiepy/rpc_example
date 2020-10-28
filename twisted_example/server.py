@@ -1,7 +1,4 @@
 # *_*coding:utf-8 *_*
-import os
-import sys
-
 from twisted.internet import reactor
 from twisted.web import server
 from twisted.web import xmlrpc
@@ -18,7 +15,6 @@ class RPCFunctions(xmlrpc.XMLRPC):
 class CalcultorResource(xmlrpc.XMLRPC):
     def xmlrpc_add(self, a, b):
         return a + b
-
 
 
 def main():
