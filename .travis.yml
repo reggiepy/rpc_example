@@ -2,5 +2,5 @@ language: python3
 script: true
 before_install: sudo pip install -r require.txt
 script:
- - python3 xmlrpc_simple/server.py
- - python3 xmlrpc_simple/client.py
+ - python xmlrpc_simple/server.py
+ - python xmlrpc_simple/client.py
