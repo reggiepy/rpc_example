@@ -1,6 +1,6 @@
-language: python3.6
+language: python3
 script: true
-before_install: sudo pip install -r require.txt
+before_install: sudo pip3 install -r require.txt
 script:
- - python3.6 xmlrpc_simple/server.py
- - python3.6 xmlrpc_simple/client.py
+ - python3 xmlrpc_simple/server.py
+ - python3 xmlrpc_simple/client.py
